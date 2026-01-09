@@ -21,7 +21,7 @@ export default function Root({ children }: PropsWithChildren) {
 
             {/* Add any additional <head> elements that you want globally available on web... */}
         </head>
-        <body className={'m-8'}>{children}</body>
+        <body className={'mt-8'}>{children}</body>
         </html>
     );
 }
