@@ -11,7 +11,7 @@
     "react-native": "0.81.5",
     "react-native-web": "^0.21.0",
     "tailwindcss": "~4.1.16",
-    "uniwind": "file:./uniwind-1.2.2.tgz"
+    "uniwind": "file:./uniwind-1.2.2-patched.tgz"
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
