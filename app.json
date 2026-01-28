@@ -7,6 +7,12 @@
       "output": "static"
     },
     "name": "my-app",
-    "slug": "my-app"
+    "slug": "my-app",
+    "android": {
+      "package": "com.alex_clove.myapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.alex-clove.myapp"
+    }
   }
 }
