@@ -1,31 +1,72 @@
-import { StatusBar } from "expo-status-bar";
-import { Text, View } from "react-native";
+import {Text, View} from "react-native";
+
+function CustomNestedText({children}: { children: string }) {
+    return (
+        <Text>
+            <Text>{children}</Text>
+        </Text>
+    );
+}
+
+function CustomText({children}: { children: string }) {
+    return (
+        <Text>{children}</Text>
+    );
+}
 
 export default function App() {
-  return (
-    <View className="flex-1 bg-white dark:bg-black items-center justify-center px-8">
-      {/* Heading */}
-      <Text className="text-4xl font-extrabold text-gray-800 dark:text-white mb-3 tracking-tight">
-        🚀 Welcome
-      </Text>
-
-      {/* Subheading */}
-      <Text className="text-xl dark:text-white text-gray-700 mb-8 text-center leading-relaxed">
-        Build beautiful apps with{" "}
-        <Text className="text-blue-500 font-semibold">
-          Expo (Router) + Uniwind 🔥
-        </Text>
-      </Text>
-
-      {/* Instruction text */}
-      <Text className="text-base text-gray-600 dark:text-white text-center max-w-sm">
-        Start customizing your app by editing{" "}
-        <Text className="font-semibold text-gray-800 dark:text-white">
-          app/index.tsx
-        </Text>
-      </Text>
-
-      <StatusBar style="dark" />
-    </View>
-  );
+    return (
+        <View className="flex-1 items-center justify-center gap-8">
+            {/* ❌ custom nested text + custom text breaks */}
+            <Text>
+                <CustomNestedText>{'Hello '}</CustomNestedText>
+                <CustomText>{'world '}</CustomText>
+            </Text>
+            {/* ✅ Inline nested text works fine */}
+            <Text>
+                <Text>{'Hello '}</Text>
+                <Text>
+                    <Text>
+                        {'world '}
+                    </Text>
+                </Text>
+            </Text>
+            {/* ✅ Custom nested text + Custom nested text works fine */}
+            <Text>
+                <CustomNestedText>{'Hello '}</CustomNestedText>
+                <CustomNestedText>{'world '}</CustomNestedText>
+            </Text>
+            {/* ✅ Single nested + Works fine */}
+            <Text>
+                <CustomText>{'Hello '}</CustomText>
+                <CustomText>{'world '}</CustomText>
+            </Text>
+            {/* ❌ String + custom text breaks */}
+            <Text>
+                {'Hello '}
+                <CustomText>{'world '}</CustomText>
+            </Text>
+            {/* ✅ String + custom nested text works fine */}
+            <Text>
+                {'Hello '}
+                <CustomNestedText>{'world '}</CustomNestedText>
+            </Text>
+            {/* ✅ String + inline nested text works */}
+            <Text>
+                {'Hello '}
+                <Text>
+                    <Text>
+                        {'world '}
+                    </Text>
+                </Text>
+            </Text>
+            {/* ✅ String + inline text works */}
+            <Text>
+                {'Hello '}
+                <Text>
+                    {'world '}
+                </Text>
+            </Text>
+        </View>
+    );
 }

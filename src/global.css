@@ -1,2 +1,11 @@
 @import "tailwindcss";
 @import "uniwind";
+
+@theme {
+    --font-sans: Inter;
+
+    --text-body-md: 14px;
+    --text-body-md--line-height: 22px;
+    --text-body-md--font-weight: 400;
+    --text-body-md--letter-spacing: -0.14px;
+}
