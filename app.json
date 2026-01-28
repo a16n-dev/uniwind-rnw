@@ -9,10 +9,10 @@
     "name": "my-app",
     "slug": "my-app",
     "android": {
-      "package": "com.alex_clove.myapp"
+      "package": "dev.a16.uniwindapp"
     },
     "ios": {
-      "bundleIdentifier": "com.alex-clove.myapp"
+      "bundleIdentifier": "dev.a16.uniwindapp"
     }
   }
 }
