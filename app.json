@@ -6,7 +6,7 @@
     "web": {
       "output": "static"
     },
-    "name": "uniwind-rnw",
-    "slug": "uniwind-rnw"
+    "name": "my-app",
+    "slug": "my-app"
   }
 }

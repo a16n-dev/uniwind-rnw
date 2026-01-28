@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50a45bef-8588-4da5-9956-0f3ac58527f1" name="Changes" comment="Setup example">
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/.gitignore" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/README.md" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/app.json" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/bun.lock" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/metro.config.js" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/package.json" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/src/app/+html.tsx" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/src/app/_layout.tsx" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/src/app/index.tsx" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/src/global.css" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/src/uniwind-types.d.ts" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/tsconfig.json" beforeDir="false" />
+      <change beforePath="$USER_HOME$/WebstormProjects/uniwind-rnw/uniwind-1.2.2-patched.tgz" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/WebstormProjects/uniwind-rnw" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;a16n-dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/a16n-dev/uniwind-rnw.git&quot;,
+    &quot;accountId&quot;: &quot;b5a3604e-1a14-48e1-b4cd-a304f8c5e97f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="37zL9Ovydg59du53qvqvOwaeIOn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/alexnicholson/WebstormProjects/uniwind-rnw",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/WebstormProjects/uniwind-rnw" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/WebstormProjects/uniwind-rnw" />
+      <recent name="$USER_HOME$/WebstormProjects/uniwind-rnw/src/app" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50a45bef-8588-4da5-9956-0f3ac58527f1" name="Changes" comment="" />
+      <created>1736735183438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736735183438</updated>
+      <workItem from="1736735183440" duration="904000" />
+      <workItem from="1767900802257" duration="2331000" />
+      <workItem from="1767912430823" duration="4011000" />
+      <workItem from="1768181398935" duration="599000" />
+      <workItem from="1768425393078" duration="4593000" />
+      <workItem from="1768516614640" duration="1553000" />
+      <workItem from="1768627082573" duration="16000" />
+      <workItem from="1769559687231" duration="156000" />
+      <workItem from="1769560317587" duration="3456000" />
+    </task>
+    <task id="LOCAL-00001" summary="setup">
+      <option name="closed" value="true" />
+      <created>1767910394394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767910394394</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setup example">
+      <option name="closed" value="true" />
+      <created>1767934489349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767934489349</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Setup example">
+      <option name="closed" value="true" />
+      <created>1767935475520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767935475520</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup" />
+    <MESSAGE value="Setup example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup example" />
+  </component>
+</project>
